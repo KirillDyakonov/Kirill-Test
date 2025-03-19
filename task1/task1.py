@@ -1,6 +1,7 @@
+import sys
 
-n = int(input("Введите n: "))
-m = int(input("Введите m: "))
+n = int(sys.argv[1])
+m = int(sys.argv[2])
 
 arr = list(range(1, n + 1))
 
